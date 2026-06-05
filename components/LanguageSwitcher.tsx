@@ -28,7 +28,7 @@ export default function LanguageSwitcher() {
               : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-700"
           }`}
         >
-          {locale.toUpperCase()}
+          {locale.toUpperCase()} test
         </button>
       ))}
     </div>
